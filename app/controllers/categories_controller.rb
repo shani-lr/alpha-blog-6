@@ -4,7 +4,7 @@ class CategoriesController < ApplicationController
 
   def new
     @category = Category.new
-    @admin_user = User.create(username: "johndoe", email: "johndoe@example.com", password: "password", admin: true)
+    # @admin_user = User.create(username: "johndoe", email: "johndoe@example.com", password: "password", admin: true)
   end
 
   def create
